@@ -8,15 +8,16 @@ import { ZoodMallLogo } from '../images/icons';
 
 const NavbarTop = () => {
 
+    const NavbarTop =  document.querySelector('.navbar-top-stick');
     window.addEventListener('scroll', () => {
-        const NavbarTop =  document.querySelector('.navbar-top-stick');
         if(window.scrollY === 0){
             NavbarTop.classList.remove('sticky-open')
         }
         if(window.scrollY >= 150){
             NavbarTop.classList.add('sticky-open')
         }
-    })    
+    })
+
 
   return (
     <div className='navbar-t'>

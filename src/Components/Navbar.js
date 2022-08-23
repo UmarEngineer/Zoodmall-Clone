@@ -3,7 +3,7 @@ import './Styles/Navbar.css'
 import { BsSearch } from 'react-icons/bs'
 import { BiShoppingBag } from 'react-icons/bi'
 import { BsHeart } from 'react-icons/bs'
-
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
 
@@ -11,6 +11,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="navbar-top-section">
+        <div className="hamburger-icon">
+          <GiHamburgerMenu />
+        </div>
         <a href="!#">
           <img src={ZoodMallLogo} alt="Zoodmall logo" width="160" height='30' />
         </a>

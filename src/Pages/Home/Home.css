@@ -1,6 +1,61 @@
 
 .container{
-    max-width: 1140px;
-    width: 100%;
+    width: 1140px;
+    max-width: 90%;
     margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    
+    .navbar-items{
+        display: none;
+    }
+
+    .navbar-top-section{
+        background-color: #ffd200;
+        width: 94%;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        padding: 1.5rem;
+        top: 0;
+        flex-wrap: wrap;
+    }
+
+    .search-form{
+        order: 5;
+        margin: 10px auto;
+    }
+
+    .hamburger-icon{
+        display: inline-block;
+    }
+
+    .hamburger-icon svg{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+    
+    .navbar-t{
+        display: none;
+    }
+
+    .navbar-search{
+        max-width: 500px;
+        width: 100%;
+        padding-left: 0.5em;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-top-section div, .navbar-top-section a img{
+        transform: scale(0.8);
+    }
 }
