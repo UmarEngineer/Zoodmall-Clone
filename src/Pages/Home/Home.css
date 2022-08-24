@@ -110,6 +110,14 @@
 }
 
 @media screen and (max-width: 365px) {
+    .navbar-top-section{
+        justify-content: center;
+    }
+    .hamburger-icon{
+        margin-left: -50px;
+        margin-right: 30px;
+    }
+    
     .hero{
         margin-top: 180px;
     }

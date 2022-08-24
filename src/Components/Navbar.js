@@ -4,6 +4,7 @@ import { BsSearch } from 'react-icons/bs'
 import { BiShoppingBag } from 'react-icons/bi'
 import { BsHeart } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { IoPersonCircleOutline } from 'react-icons/io5'
 
 const Navbar = () => {
 
@@ -27,6 +28,7 @@ const Navbar = () => {
             <BiShoppingBag />
             <span>Savat</span>
           </div>
+          <IoPersonCircleOutline />
         </div>
       </div>
 
