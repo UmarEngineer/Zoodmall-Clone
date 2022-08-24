@@ -15,7 +15,7 @@
 
     .navbar-top-section{
         background-color: #ffd200;
-        width: 94%;
+        width: 100%;
         margin: 0;
         position: absolute;
         left: 0;
@@ -38,6 +38,25 @@
         height: 30px;
     }
 
+    .hero{
+        margin-top: 140px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero-flash-sale{
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+
+    .dots2{
+        top: 96%;
+    }
+
+    .hero-flash-sale > div{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 565px) {
@@ -52,10 +71,72 @@
         padding-left: 0.5em;
         padding-right: 0;
     }
+
+    .hero{
+        margin-top: 160px;
+    }
+
+    .hero-flash-sale{
+        align-content: flex-start;
+    }
+    .flash-scroll-box{
+        transform: scale(0.8);
+    }
+
+    .flash-scroll{
+        margin-left: -45px;
+    }
+
+    .dots2{
+        left: 47%;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
     .navbar-top-section div, .navbar-top-section a img{
         transform: scale(0.8);
+    }
+
+    .flash-scroll{
+        transform: scale(0.8);
+        margin-left: -60px;
+    }
+
+    .dots2{
+        left: 60%;
+        right: auto;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .hero{
+        margin-top: 180px;
+    }
+
+    .hero-flash--sale{
+        padding: 30px 20px!important;
+    }
+
+    .hero-icons{
+        row-gap: 0;
+    }
+    .icon-item{
+        transform: scale(0.7);
+        padding: 0;
+    }
+
+    .icon-item__text{
+        font-size: 12px;
+    }
+
+    .flash-scroll-box{
+        max-width: 400px;
+    }
+
+    .dots2{
+        top: 90%;
+        left: 84%;
+        margin-bottom: 10px;
     }
 }

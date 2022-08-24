@@ -1,32 +1,18 @@
-import mainBanner from '../images/banners/main_banner.png'
-import mainBanner2 from '../images/banners/main_banner_xiomi.png'
-import mainBanner3 from '../images/banners/main_banner_newElc.jpg'
 import { Cashback, Electronics, Exclusive, FreeShipping, HugeSales, Installment, Local, NewArrial } from '../images/IconsHome'
 import './Styles/Hero.css'
-import { GalaxyA52, RedMiKulrang, RedMINote } from '../images/FlashSale'
-
-
+import { Slider } from './Carousel'
+import { CarouselFlash} from './CarouselFlash'
 const Hero = () => {
+
+
+
+
   return (
     <div className="hero">
       <div className="hero-scroll">
-        <div>
-          <a href="!#">
-            <img src={mainBanner} alt="Main Banner" />
-          </a>
-        </div>
-        <div>
-          <a href="!#">
-            <img src={mainBanner2} alt="Main Banner 2" className='hidden' />
-          </a>
-        </div>
-        <div>
-          <a href="!#">
-            <img src={mainBanner3} alt="Main Banner 3" className="hidden" />
-          </a>
-        </div>
+        <Slider />
       </div>
-    
+
       <div className='hero-icons'>
         <div className='icon-item'>
           <a href="!#">
@@ -79,87 +65,37 @@ const Hero = () => {
       </div>
 
       <div className="hero-flash--sale">
-        <div className="flash-text">
-          <div className="flash-text-head">
-            Smartfonlar x12 -gacha muddatli to'lovga
+        <div className="hero-flash-sale">
+          <div className="flash-text">
+            <div className="flash-text-head">
+              Smartfonlar x12 -gacha muddatli to'lovga
+            </div>
+            <div className='flash-text-boxes'>
+              <div className='flash-box'>
+                <div>12</div>
+                <span>Soatlar</span>
+              </div>
+              <div className='flash-box'>
+                <div>10</div>
+                <span>Daqiqalar</span>
+              </div>
+              <div className='flash-box'>
+                <div>32</div>
+                <span>Soniyalar</span>
+              </div>
+            </div>
           </div>
-          <div className='flash-text-boxes'>
-            <div className='box'>
-              <div>12</div>
-              <div>Soatlar</div>
-            </div>
-            <div className='box'>
-              <div>10</div>
-              <div>Daqiqalar</div>
-            </div>
-            <div className='box'>
-              <div>32</div>
-              <div>Soniyalar</div>
-            </div>
+
+          <div className="flash-scroll">
+            <CarouselFlash />
           </div>
-          <div className="flash-text-link">
+        </div>
+
+        <div className="flash-text-link">
             <a href="!#">
               Boshqalarni ko'rsatish
             </a>
-          </div>
         </div>
-
-        <div className="flash-scroll">
-          <div className="flash-scroll-box">
-            <div>
-              <img src={RedMINote} alt="Redmi 10 C" />
-            </div>
-
-            <div>
-              <div>
-                Smartfon Xiaomi Redmi Note 11 4/64GB, EU, Grafit kulrang
-              </div>
-              <div>
-                UZS 598,400
-              </div>
-              <div>
-                loading....
-              </div>
-            </div>
-          </div>
-
-          <div className="flash-scroll-box">
-            <div>
-              <img src={GalaxyA52} alt="Redmi 10 C" />
-            </div>
-
-            <div>
-              <div>
-                Smartfon Samsung Galaxy A32 6/128 GB qora/binafsha rang 
-              </div>
-              <div>
-                UZS 752,000
-              </div>
-              <div>
-                loading....
-              </div>
-            </div>
-          </div>
-
-          <div className="flash-scroll-box">
-            <div>
-              <img src={RedMiKulrang} alt="Redmi 10 C" />
-            </div>
-
-            <div>
-              <div>
-                Smartfon Xiaomi Redmi Note 11 4/64GB, EU, Grafit kulrang
-              </div>
-              <div>
-                UZS 673,180
-              </div>
-              <div>
-                loading....
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     
     
