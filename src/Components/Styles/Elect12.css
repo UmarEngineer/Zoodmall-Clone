@@ -1,0 +1,57 @@
+
+.elect12{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.elect-btn{
+    max-width: 440px;
+    width: 100%;
+    height: 60px;
+    border-radius: 28px;
+    margin: 0 auto;
+    object-fit: fill;
+}
+
+.elect-btn img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.elect-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.elect-card-items{
+    padding: 1rem;
+}
+
+.elect-card{
+    border: 1px solid #dcdfe6;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elect-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.elect-text{
+    text-align:center;
+    font-size: 14px;
+    margin-top: 0.3rem;
+    font-weight: 600;
+}
+
+.elect-carousel{
+    padding-bottom: 20px;
+    padding-top: 1rem;
+    margin-top: 10px;
+}

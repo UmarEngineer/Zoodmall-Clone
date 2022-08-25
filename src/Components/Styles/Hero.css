@@ -114,6 +114,7 @@
     display: flex;
     width: 54.6%;
     align-items: flex-start;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -150,6 +151,31 @@
     margin-bottom: 30px;
     height: 34px;
     overflow: hidden;
+}
+.box-text-price{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffd200;
+}
+
+.box-text-line{
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 210, 0, 0.4);
+    border-radius: 40px;
+    position: relative;
+}
+
+.box-text-line::after{
+    content: '';
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 75%;
+    background-color: #ffa325;
 }
 
 
