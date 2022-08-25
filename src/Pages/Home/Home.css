@@ -42,6 +42,19 @@
         margin-top: 140px;
     }
 
+    .top-categories-slider{
+        padding: 15px 10px;
+    }
+
+    .top-categories-slider-item img{
+        max-width: 50px;
+        height: 50px;
+    }
+
+    .top-categories-slider-item p {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -56,6 +69,16 @@
 
     .hero-flash-sale > div{
         width: 80%;
+    }
+
+    .elect-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .elect-btn{
+        width: 60%;
+        height: 40px;
     }
 }
 
@@ -106,6 +129,11 @@
     .dots2{
         left: 60%;
         right: auto;
+    }
+
+    .elect-btn{
+        width: 60%;
+        height: 30px;
     }
 }
 
