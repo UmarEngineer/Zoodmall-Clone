@@ -63,12 +63,10 @@ export const CarouselFlash = () => {
                 <p className="box-text-head">
                     Smartfon Xiaomi Redmi Note 11 4/64GB, EU, Grafit kulrang
                 </p>
-                <p>
+                <p className='box-text-price'>
                     UZS 598,400
                 </p>
-                <div>
-                    loading....
-                </div>
+                <div className='box-text-line'></div>
                 </div>
             </div>
           </div>
@@ -82,12 +80,10 @@ export const CarouselFlash = () => {
                 <p className="box-text-head">
                     Smartfon Samsung Galaxy A32 6/128 GB qora/binafsha rang 
                 </p>
-                <p>
+                <p className='box-text-price'>
                     UZS 752,000
                 </p>
-                <div>
-                    loading....
-                </div>
+                <div className='box-text-line'></div>
                 </div>
             </div>
           </div>
@@ -101,12 +97,10 @@ export const CarouselFlash = () => {
               <p className="box-text-head">
                 Smartfon Xiaomi Redmi Note 11 4/64GB, EU, Grafit kulrang
               </p>
-              <p>
+              <p className='box-text-price'>
                 UZS 673,180
               </p>
-              <div>
-                loading....
-              </div>
+              <div className='box-text-line'></div>
             </div>
           </div>
           </div>
