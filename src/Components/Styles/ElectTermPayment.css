@@ -1,0 +1,93 @@
+
+.elect-term-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 16px 18px;
+    box-shadow: 0 4px 4px hsl(0deg 0% 92% / 17%);
+    border-radius: 12px;
+}
+
+.elect-term-item:not(last-child){
+    border-right: 1px solid #f2f6fc
+}
+
+.elect-term-item:hover{
+    transform: translateY(-2%);
+}
+
+.elect-term-item{
+    width: 25%;
+}
+
+.elect-term-item a {
+    text-decoration: none;
+    width: 100%;
+    max-width: 255px;
+    transition: .3s;
+    padding: 0 0 10px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.elect-term-img{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.elect-term-img img{
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+    height: 222px;
+    object-fit: contain;
+}
+
+.elect-term-text{
+    padding: 10px 22px;
+    color: #4d4d4d;
+}
+
+.elect-text-title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.elect-text-totalprice{
+    margin-top: 0.4rem;
+}
+
+.elect-text-payment{
+    margin: 0.2rem 0 .4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.elect-text-payment > p{
+    background: #ffd200;
+    border-radius: 2px;
+    padding: 4px 5px;
+    margin: 0 8px 0 0;
+    font-size: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elect-text-rating{
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.elect-text-rating img{
+    width: 19px;
+    height: 16px;
+    object-fit: contain;
+}

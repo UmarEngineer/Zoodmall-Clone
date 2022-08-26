@@ -1,27 +1,11 @@
 
-export const NeolineXcop = () => {
-    return(
-        "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://avatars.mds.yandex.net/get-mpic/372220/img_id2364826008393226619/orig"
-    )
-}
+export const NeolineXcop = "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://images.zoodmall.com/web/product/picture/28/21646428/165744455540310800081.jpeg"
 
-export const SignatureRadar = () => {
-    return(
-        "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://images.zoodmall.com/web/product/picture/99/21604599/165719465406329000527.jpeg"
-    )
-}
+export const SignatureRadar = "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://images.zoodmall.com/web/product/picture/45/21504845/165651326515299400640.jpeg"
 
-export const AutosignalMagicar = () => {
-    return(
-        "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://olcha.uz/image/600x600/products/OTiXKlcWCPIwP0lAKgUznGgQjhEJia6Sgr9waSzoOvSYceI7EywfTWlUMtYV.jpeg"
-    )
-}
+export const AutosignalMagicar = "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://images.zoodmall.com/web/product/picture/92/20043292/165492214391039200097.jpeg"
 
-export const AutoMonitorTesla = () => {
-    return(
-        "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://images.zoodmall.com/web/product/picture/92/21063992/165632672750820900763.jpeg"
-    )
-}
+export const AutoMonitorTesla = "https://zoodmall.com/cdn-cgi/image/w=500,fit=contain,f=auto/https://images.zoodmall.com/cloudinary/86/0f9/https%253A%252F%252Fupload.zoodmall.com%252Fweb%252Fproduct%252Fpicture%252F21%252F19679021%252F165285875277588800813.jpeg"
 
 
 

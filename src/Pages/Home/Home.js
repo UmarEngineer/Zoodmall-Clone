@@ -3,6 +3,10 @@ import Hero from "../../Components/Hero"
 import Navbar from "../../Components/Navbar"
 import NavbarTop from "../../Components/NavbarTop"
 import TopCategories from "../../Components/TopCategories"
+import ElectTermPayment from "../../Components/ElectTermPayment"
+import AutoProducts from "../../Components/AvtoProducts"
+import TopAutoProducts from "../../Components/TopAvtoProducts"
+import { TopBrandsSlider } from "../../Components/TopBrandsSlider"
 import './Home.css'
 const Home = () => {
 
@@ -16,6 +20,10 @@ const Home = () => {
             <Hero />
             <Elect12 />
             <TopCategories />
+            <ElectTermPayment />
+            <AutoProducts />
+            <TopAutoProducts />
+            <TopBrandsSlider />
         </div>
 
     </div>

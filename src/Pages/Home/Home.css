@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .container{
     width: 1140px;
     max-width: 90%;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -55,9 +58,17 @@
         font-size: 12px;
     }
 
+    .elect-term-item{
+        width: 30%;
+    }
+
+    .elect-term-item:last-child{
+        display: none;
+    }
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {    
     .hero-flash-sale{
         flex-direction: column;
         padding-bottom: 1rem;
@@ -79,6 +90,39 @@
     .elect-btn{
         width: 60%;
         height: 40px;
+    }
+    .elect-term-items{
+        width: 100%;
+        padding: 1rem 0;
+        flex-wrap: wrap;
+        display: block;
+    }
+    .elect-term-item{
+        width: 50%;
+        float: left;
+        display: block;
+    }
+    
+    .elect-term-items::after, .elect-term-items::before{
+        display: table;
+        clear: both;
+        content: "";
+    }
+
+    .elect-text-title{
+        text-overflow: clip;
+    }
+    .elect-term-item:last-child{
+        display: flex;
+    }
+
+    .elect-text-payment span{
+        font-size: .7rem;
+        font-weight: 400;
+    }
+
+    .elect-term-img img {
+        height: 166px;
     }
 }
 
@@ -114,6 +158,25 @@
         left: 47%;
     }
 
+    .arrow{
+        transform: scale(0.8);
+        top: 40%;
+    }
+
+    .arrow--left{
+        left: 5px;
+    }
+    .arrow--right{
+        right: 5px;
+    }
+    .dot{
+        width: 5px;
+        height: 5px;
+    }
+    .dot.active{
+        width: 25px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -134,6 +197,9 @@
     .elect-btn{
         width: 60%;
         height: 30px;
+    }
+    .elect-term-img img {
+        height: 130px;
     }
 }
 

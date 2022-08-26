@@ -2,19 +2,19 @@ import './Styles/NavbarTop.css'
 import { BsEye, } from 'react-icons/bs'
 import {  AiOutlineStar } from 'react-icons/ai'
 import { BiShoppingBag } from 'react-icons/bi'
-import { IoPersonOutline } from 'react-icons/io5';
+import { IoPersonOutline, IoPersonCircleOutline } from 'react-icons/io5';
 import { BsSearch, BsHeart } from 'react-icons/bs';
 import { ZoodMallLogo } from '../images/icons';
 
 const NavbarTop = () => {
-
-    const NavbarTop =  document.querySelector('.navbar-top-stick');
+    
+    const NavbarTopItem =  document.querySelector('.navbar-top-stick');
     window.addEventListener('scroll', () => {
         if(window.scrollY === 0){
-            NavbarTop.classList.remove('sticky-open')
+            NavbarTopItem.classList.remove('sticky-open')
         }
         if(window.scrollY >= 150){
-            NavbarTop.classList.add('sticky-open')
+            NavbarTopItem.classList.add('sticky-open')
         }
     })
 
@@ -34,8 +34,9 @@ const NavbarTop = () => {
             <div className="navbar-rigth">
                 <BsHeart />
                 <div className="basket">
-                <BiShoppingBag />
-                <span>Savat</span>
+                    <BiShoppingBag />
+                    <span>Savat</span>
+                    <IoPersonCircleOutline />
                 </div>
             </div>
             </div>
