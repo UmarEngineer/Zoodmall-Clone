@@ -64,7 +64,7 @@ export const TopBrandsSlider = () => {
     </div>
 
     <div ref={sliderRef} className="keen-slider top-brend-items">
-        {loaded && topBrands.map((topBrand, i) => (
+        {topBrands.map((topBrand, i) => (
             <div className="keen-slider__slide numbeer-slide1" key={i}>
                 <a href="#!">
                     <div className="top-brend-item">

@@ -1,10 +1,10 @@
-import { Cashback, Electronics, Exclusive, FreeShipping, HugeSales, Installment, Local, NewArrial } from '../images/IconsHome'
+import { Local, Installment, Cashback, PreperSchool, BestChina, SaleForElectronics, Exclusive, NewArrial } from '../images/IconsHome'
 import './Styles/Hero.css'
 import { Slider } from './Carousel'
 import { CarouselFlash} from './CarouselFlash'
 const Hero = () => {
 
-
+  const IconsHome = [Local, Installment, Cashback, PreperSchool, BestChina, SaleForElectronics, Exclusive, NewArrial]
 
 
   return (
@@ -14,54 +14,14 @@ const Hero = () => {
       </div>
 
       <div className='hero-icons'>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={Local} alt="Flag-uz" />
-            <div className='icon-item__text'>Mahalliy sotuvchilar</div>
-          </a>
-        </div>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={Installment} alt="Flag-uz" />
-            <div className='icon-item__text'>Muddatli to'lov</div>
-          </a>
-        </div>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={Cashback} alt="Flag-uz" />
-            <div className='icon-item__text'>Cashback</div>
-          </a>
-        </div>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={FreeShipping} alt="Flag-uz" />
-            <div className='icon-item__text'>Maktabga tayyorgarlik</div>
-          </a>
-        </div>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={HugeSales} alt="Flag-uz" />
-            <div className='icon-item__text'>Xitoydan eng yaxshisi</div>
-          </a>
-        </div>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={Electronics} alt="Flag-uz" />
-            <div className='icon-item__text'>20% chegirma elektronikaga</div>
-          </a>
-        </div>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={Exclusive} alt="Flag-uz" />
-            <div className='icon-item__text'>Ekslyuziv takliflar</div>
-          </a>
-        </div>
-        <div className='icon-item'>
-          <a href="!#">
-            <img src={NewArrial} alt="Flag-uz" />
-            <div className='icon-item__text'>Yangi kelgan mahsulotlar</div>
-          </a>
-        </div>
+        {IconsHome.map((iconHome, i) => (
+          <div className='icon-item'>
+            <a href="!#">
+              <img src={iconHome.link} alt={`${iconHome.name} rasmi`} />
+              <div className='icon-item__text'>{iconHome.name}</div>
+            </a>
+          </div>
+        ))}
       </div>
 
       <div className="hero-flash--sale">
