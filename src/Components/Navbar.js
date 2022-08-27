@@ -23,12 +23,18 @@ const Navbar = () => {
           <BsSearch className="search-icon"/>
         </form>
         <div className="navbar-rigth">
+        <a href="#!">
           <BsHeart />
-          <div className="basket">
-            <BiShoppingBag />
-            <span>Savat</span>
-          </div>
-          <IoPersonCircleOutline />
+        </a>
+        <div className="basket">
+            <a href="#!">
+                <BiShoppingBag />
+                <span>Savat</span>
+            </a>
+            <a href="#!">
+                <IoPersonCircleOutline />
+            </a>
+        </div>
         </div>
       </div>
 

@@ -32,11 +32,17 @@ const NavbarTop = () => {
                 <BsSearch className="search-icon"/>
             </form>
             <div className="navbar-rigth">
-                <BsHeart />
+                <a href="#!">
+                    <BsHeart />
+                </a>
                 <div className="basket">
-                    <BiShoppingBag />
-                    <span>Savat</span>
-                    <IoPersonCircleOutline />
+                    <a href="#!">
+                        <BiShoppingBag />
+                        <span>Savat</span>
+                    </a>
+                    <a href="#!">
+                        <IoPersonCircleOutline />
+                    </a>
                 </div>
             </div>
             </div>
@@ -45,18 +51,18 @@ const NavbarTop = () => {
 
         <div className="navbar-top">
             <div className="navbar-top-text">
-                <div className='navbar-top-text__items'>
+                <a href='#!' className='navbar-top-text__items'>
                     <BsEye />
                     <div>Jozibador takliflar</div>
-                </div>
-                <div className='navbar-top-text__items'>
+                </a>
+                <a href='#!' className='navbar-top-text__items'>
                     <AiOutlineStar />
                     <div>Mashhur toifalar</div>
-                </div>
-                <div className='navbar-top-text__items'>
+                </a>
+                <a href='#!' className='navbar-top-text__items'>
                     <BiShoppingBag />
                     <div> ZOODMALL'DA SOTISH</div>
-                </div>
+                </a>
             </div>
 
             <div className="navbar-top-items">
@@ -66,10 +72,10 @@ const NavbarTop = () => {
                     <option value="ru" key="ru">RU</option>
                 </select>
 
-                <div className='navbar-top-items__items'>
+                <a href='#!' className='navbar-top-items__items'>
                     <IoPersonOutline />
                     <div>Kirish</div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

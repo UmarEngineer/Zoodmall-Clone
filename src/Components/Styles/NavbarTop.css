@@ -47,21 +47,18 @@
     gap: 2.85em;
 }
 
-.navbar-top-text__items{
+.navbar-top-text__items,
+.navbar-top-items__items{
     display: flex;
     align-items: center;
     gap: 5px;
+    text-decoration: none;
+    color: #606266;
 }
 
 .navbar-top-items{
     display: flex;
     gap: 10px;
-}
-
-.navbar-top-items__items{
-    display: flex;
-    align-items: center;
-    gap: 5px;
 }
 
 .navbar-top-select{
@@ -75,4 +72,11 @@
     background-color: #ffd200;
     border: none;
     outline: none;
+}
+
+
+.basket, .basket a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
