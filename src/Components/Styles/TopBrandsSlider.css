@@ -65,6 +65,7 @@ body {
   
   .top-brend-items{
     display: flex;
+    margin-bottom: 40px;
   }
 
   .top-brend-item{
