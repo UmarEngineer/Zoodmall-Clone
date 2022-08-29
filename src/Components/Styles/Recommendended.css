@@ -1,0 +1,11 @@
+.rec{
+    max-width: 100%;
+}
+
+.rec-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 18px;
+}
