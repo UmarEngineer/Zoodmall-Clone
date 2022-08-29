@@ -7,7 +7,9 @@ import ElectTermPayment from "../../Components/ElectTermPayment"
 import AutoProducts from "../../Components/AvtoProducts"
 import TopAutoProducts from "../../Components/TopAvtoProducts"
 import { TopBrandsSlider } from "../../Components/TopBrandsSlider"
+import RecommendendedItems from '../../Components/RecommendendedItems'
 import './Home.css'
+import TopAsboblar from "../../Components/TopAsboblar"
 const Home = () => {
 
 
@@ -24,6 +26,8 @@ const Home = () => {
             <AutoProducts />
             <TopAutoProducts />
             <TopBrandsSlider />
+            <TopAsboblar />
+            <RecommendendedItems />
         </div>
 
     </div>
