@@ -10,6 +10,8 @@ import { TopBrandsSlider } from "../../Components/TopBrandsSlider"
 import RecommendendedItems from '../../Components/RecommendendedItems'
 import './Home.css'
 import TopAsboblar from "../../Components/TopAsboblar"
+import InfoSection from "../../Components/InfoSection"
+import Footer from "../../Components/Footer"
 const Home = () => {
 
 
@@ -28,6 +30,8 @@ const Home = () => {
             <TopBrandsSlider />
             <TopAsboblar />
             <RecommendendedItems />
+            <InfoSection />
+            <Footer />
         </div>
 
     </div>
